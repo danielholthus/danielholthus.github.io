@@ -1,0 +1,334 @@
+body{
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+main{
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 0;
+    border-top: 0;
+}
+
+main h1{
+    color: #0e0e3f;
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 6px;
+    margin-top: 40px;
+    padding-bottom: 0;
+    text-shadow: 3px 3px #CCCCCC;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+p{
+    font-family: 'Muli', sans-serif;
+    color: #0e0e3f;
+    font-size: 1.25em;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+nav{
+    padding-top: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 150px;
+    font-size: 1.75em;
+    text-align: right;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+div a{
+    transition: opacity 0.25s ease-out;
+}
+
+nav a:link{
+    color: #FFFFFF;
+}
+
+nav a:visited{
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+div a:hover{
+    opacity: 0.5;
+}
+
+nav a:active{
+    color: #FF6347;
+}
+
+.myfooter{
+    font-family: 'Muli', sans-serif;
+    color: #0e0e3f;
+    padding: 2em;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.75)
+}
+
+footer a{
+    color: #0e0e3f;
+}
+
+footer a:active{
+    color: #FF6347;
+}
+
+th{
+    padding: 0.5em;
+    border: 2px double #0e0e3f;
+    font-family: 'Bebas Neue', cursive;
+    color: #0e0e3f;
+    letter-spacing: 0.25em;
+}
+
+td{
+    padding: 0.5em;
+    border: 2px double #0e0e3f;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+tr:nth-of-type(odd){
+    background-color: rgba(255, 99, 71, 0.1)
+}
+
+form{
+    font-family: 'Muli', sans-serif;
+    padding-left: 20px;
+    width: 30%;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: auto;
+    grid-template-columns: 120px auto;
+}
+
+input, textarea{
+    margin-bottom: .5em;
+}
+
+input[type="submit"]{
+    grid-column: 2 / 3;
+    width: 9em;
+    margin-bottom: 1em;
+}
+
+.homehero{
+    background-image: url(blurryroasterlogo.jpg);
+    height: 725px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coffeehousebackground{
+    background: url(chemexpour.gif) fixed;
+    height: 725px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roasterybackground{
+    background: url(roasterybackground.jpg) no-repeat center center fixed;
+    height: 725px;
+    background-size: cover;
+}
+
+.classesbackground{
+    background-image: url(classesbackgroundtwo.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.locationbackground{
+    background-image: url(blackandwhitebg.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coffeehousehero{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px #000000;
+    margin-right: px;
+    letter-spacing: 3px;
+    color: #FFFFFF;;
+    margin-top: 225px;
+    font-size: 3em;
+    letter-spacing: 6px;
+}
+
+.roasteryhero{
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 0.5px 0.5px #000000;
+    letter-spacing: 3px;
+    color: #FFFFFF;;
+    margin-top: 150px;
+    font-size: 3em;
+    letter-spacing: 6px;
+    overflow: auto;
+}
+
+.gallerybackground{
+    background-image: url(blurryroasterlogo.jpg);
+    background-size: cover;
+    height: 92px;
+}
+
+.contentparagraph{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 90px;
+}
+
+.pennant{
+    color: #FF6347;
+    font-weight: bold;
+}
+
+#paragraphTwo{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    padding-left: 60px; 
+    padding-right: 60px;
+}
+
+#mainwrapper{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+}
+
+#navimg{
+    height: 80px;
+    width: 140px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#roasteryheaderone{
+    text-align: left;
+    margin-left: 6em;
+}
+
+#roasteryheadertwo{
+    text-align: center;
+}
+
+#roasteryheaderthree{
+    text-align: right;
+    margin-right: 4.5em;
+}
+
+#pennantdiamond{
+    margin-bottom: 90px;
+}
+
+#gallery{
+    display: grid;
+    grid-row-gap: 40px;;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px ;
+    justify-content: space-evenly;
+}
+
+#hypno{
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.45em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#shop{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 266px 266px;
+    justify-content: center;
+}
+
+#shopparagraph{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contactheader{
+    color: #0e0e3f;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px #CCCCCC;
+    text-align: left;
+    padding-left: 35px;
+}
+
+#tableone{
+    width: 40%;
+    border: 3px solid #0e0e3f;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#tabletwo{
+    width: 20%;
+    border: 3px solid #0e0e3f;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+#leftimg{
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    height: 600px;
+    width: auto;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+#pennantimg{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    height: 200px;
+    width: 300px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
